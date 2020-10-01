@@ -17,7 +17,6 @@ output=sp.getstatusoutput(cmd)
 status=output[0]
 out=output[1]
 if status == 0:
-	print("OS {} LAUNCHED".format(osname))
+	print("{}IS LAUNCHED".format(osname))
 else:
-	#print("error {}".format(out))
-	print("Myos1 IS LAUNCHED")
+	print("ERROR {}".format(out))
